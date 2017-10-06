@@ -29,7 +29,7 @@ def generateSig(payload):
     return sig
 
 def submitAnswer(task, answer):
-    url = "http://192.168.204.198:6543/{task}/solution".format(task=task)
+    url = "http://192.168.204.198:6543/task/{task}/solution".format(task=task)
     payload = {
         'user_id' : SETTINGS["user_id"],
         'solution' : answer
