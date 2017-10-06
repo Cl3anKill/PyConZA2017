@@ -8,3 +8,5 @@ Can accept the commandline arguments a and q. a => Answer, q => QuestionNumber
 
 --q is required.
 --a is not required. If both are sent in it is a asnwer to the question. If only q is sent in then you are requesting the question.
+
+The settings.json file contains your unique code and your user_id, please fill this in.
