@@ -1,4 +1,7 @@
 # PyConZA2017
+
+---
+
 Takealot Challenge Simple CLI for the submitting for questions and answers.
 Python3 CLI for Takealot Challenge
 
@@ -10,3 +13,4 @@ Can accept the commandline arguments a and q. a => Answer, q => QuestionNumber
 --a is not required. If both are sent in it is a asnwer to the question. If only q is sent in then you are requesting the question.
 
 The settings.json file contains your unique code and your user_id, please fill this in.
+
